@@ -1,5 +1,13 @@
 body {
 	background-color: #E6E6FA;
 	font-style: italic;
-	font-size: 20px;
+	font-size: 120%;
+}
+	.row {
+		margin-bottom: 15px;
+	}
+
+
+.row > div {
+	
 }
