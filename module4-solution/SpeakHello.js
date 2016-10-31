@@ -7,19 +7,10 @@
 // See Lecture 52, part 1
 // var helloSpeaker =
 
-(function(window){
+(function(window) {
 	var helloSpeaker = {};
-	helloSpeaker.name = "Yaakov";
+	helloSpeaker.name = new Object();
 	
-
-
-
-
-
-
-
-
-
 
 
 
@@ -31,8 +22,8 @@
 // helloSpeaker object instead of being a standalone function.
 // See Lecture 52, part 2
 
-   helloSpeaker.speak = function() {
-   	console.log(speakWord + " " + helloSpeaker.name);
+   helloSpeaker.speak = function(name) {
+   	console.log(speakWord + " " +name);
    }
 
 
